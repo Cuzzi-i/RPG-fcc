@@ -1,45 +1,87 @@
 body {
     background-color: #0a0a23;
-  }
-  
-  #text {
+}
+
+#text {
     background-color: #0a0a23;
     color: #ffffff;
     padding: 10px;
-  }
-  
-  #game {
+}
+
+#game {
     max-width: 500px;
     max-height: 400px;
     background-color: #ffffff;
     color: #ffffff;
     margin: 30px auto 0px;
     padding: 10px;
-  }
-  
-  #controls,
-  #stats {
+}
+
+#controls,
+#stats {
     border: 1px solid #0a0a23;
     padding: 5px;
     color: #0a0a23;
-  }
-  
-  #monsterStats {
+}
+
+#monsterStats {
     display: none;
     border: 1px solid #0a0a23;
     padding: 5px;
     color: #ffffff;
     background-color: #c70d0d;
-  }
-  
-  .stat {
+}
+
+.stat {
     padding-right: 10px;
-  }
-  
-  button {
+}
+
+button {
     cursor: pointer;
     color: #0a0a23;
     background-color: #feac32;
     background-image: linear-gradient(#fecc4c, #ffac33);
     border: 3px solid #feac32;
-  }
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background: #222;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-container a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+}
+
+.footer-container a img {
+    width: 24px;
+    height: 24px;
+}
+
+.linkedin:hover {
+    background: #0077b5;
+}
+
+.github:hover {
+    background: #333;
+}
