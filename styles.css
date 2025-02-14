@@ -110,9 +110,12 @@ footer {
         display: flex;
         flex-direction: column;
         margin: 10px auto 0px auto;
-        width: 70%;
-        height: 16vh;
+        width: 95%;
+        height: 16wh;
         font-size: 200%;
         text-align: center;
+    }
+    footer {
+        padding: 10px;
     }
 }
